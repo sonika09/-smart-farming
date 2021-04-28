@@ -1,0 +1,78 @@
+body, html {
+    height: 100%;
+  margin: 0;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("https://giffiles.alphacoders.com/101/10178.gif");
+  
+    /* Full height */
+    height:all; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h1 {
+    color:white;
+    text-align: center;
+    font-size:35px;
+  
+  }
+  .center {
+    margin:auto;
+    width:30%;
+    padding: 100px;
+  }
+  a{
+    color:transparent;
+  }
+  p{
+    color:black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    
+  }
+  
+  
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width:20%;
+    padding:13px;
+    margin:20px;
+  
+  }
+  
+  .row {margin: 0px 4px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+      column-gap:5px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding:16px;
+    text-align: center;
+    background-color: #444;
+    color: white;
+  }
